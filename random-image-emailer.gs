@@ -4,7 +4,7 @@
  * 1. Log into Google Drive, and click CREATE -> Script -> Blank Project.
  * 2. Delete all of the default code, and paste this code into your project.
  * 3. Customize the email parameters below to your liking (note that the quotes
- *    around each line are very important.)
+ *    around each line are very important).
  * 4. Test the script by selecting Run -> sendRandomImage. You should receive an
  *    email with a random image.
  * 5. Click Resources -> Current Project's Triggers, and set up the email to run
@@ -16,8 +16,8 @@
 var folderName = "";
 
 // Email parameters
-var to      = "you@domain.com"  // comma-separated list of email addresses
-var subject = "Honeymailer Daily"   // subject line
+var to      = "you@domain.com"      // comma-separated list of email addresses
+var subject = "Daily Random Image"  // subject line
 var body    = "<p>Your random image:</p>" +  // body of the email
     "<p><img src='cid:imageBlob' style='max-width: 100%;' /></p>" +
     "<p>Like this one? See it <a href='{picture-link}'>here</a>.</p>";
